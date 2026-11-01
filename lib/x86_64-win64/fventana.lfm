@@ -1,0 +1,155 @@
+object Form1: TForm1
+  Left = 697
+  Height = 651
+  Top = 35
+  Width = 481
+  Caption = 'VECTOR PLUS'
+  ClientHeight = 651
+  ClientWidth = 481
+  DesignTimePPI = 120
+  LCLVersion = '4.2.0.0'
+  OnCreate = FormCreate
+  object Label1: TLabel
+    Left = 136
+    Height = 37
+    Top = 0
+    Width = 174
+    Caption = 'VECTOR PLUS'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -27
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object SGA: TStringGrid
+    Left = 40
+    Height = 40
+    Top = 48
+    Width = 400
+    DefaultColWidth = 40
+    FixedCols = 0
+    FixedRows = 0
+    RowCount = 1
+    TabOrder = 0
+  end
+  object SGB: TStringGrid
+    Left = 40
+    Height = 42
+    Top = 96
+    Width = 400
+    DefaultColWidth = 40
+    FixedCols = 0
+    FixedRows = 0
+    RowCount = 1
+    TabOrder = 1
+  end
+  object SGC: TStringGrid
+    Left = 40
+    Height = 40
+    Top = 144
+    Width = 400
+    DefaultColWidth = 40
+    FixedCols = 0
+    FixedRows = 0
+    RowCount = 1
+    TabOrder = 2
+  end
+  object POS: TEdit
+    Left = 40
+    Height = 28
+    Top = 192
+    Width = 400
+    TabOrder = 3
+    TextHint = 'POSICION....'
+  end
+  object ELE: TEdit
+    Left = 40
+    Height = 28
+    Top = 224
+    Width = 400
+    TabOrder = 4
+    TextHint = 'ELEMENTO....'
+  end
+  object Button1: TButton
+    Left = 40
+    Height = 40
+    Top = 260
+    Width = 400
+    Caption = 'CARGAR VA'
+    TabOrder = 5
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 40
+    Height = 40
+    Top = 304
+    Width = 400
+    Caption = 'CARGAR VB'
+    TabOrder = 6
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 40
+    Height = 40
+    Top = 344
+    Width = 400
+    Caption = 'CARGAR VC'
+    TabOrder = 7
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 40
+    Height = 40
+    Top = 384
+    Width = 400
+    Caption = 'CORTE DE CONTROL'
+    TabOrder = 8
+    OnClick = Button4Click
+  end
+  object Button5: TButton
+    Left = 40
+    Height = 40
+    Top = 424
+    Width = 400
+    Caption = 'DISPERCION'
+    TabOrder = 9
+    OnClick = Button5Click
+  end
+  object Button6: TButton
+    Left = 40
+    Height = 40
+    Top = 464
+    Width = 400
+    Caption = 'DIVIDIR PAR/IMPAR'
+    TabOrder = 10
+    OnClick = Button6Click
+  end
+  object Button7: TButton
+    Left = 40
+    Height = 40
+    Top = 504
+    Width = 400
+    Caption = 'INTERCALAR'
+    TabOrder = 11
+    OnClick = Button7Click
+  end
+  object Button8: TButton
+    Left = 40
+    Height = 40
+    Top = 544
+    Width = 400
+    Caption = 'PURGAR'
+    TabOrder = 12
+    OnClick = Button8Click
+  end
+  object Button9: TButton
+    Left = 40
+    Height = 40
+    Top = 584
+    Width = 400
+    Caption = 'SALIR'
+    TabOrder = 13
+    OnClick = Button9Click
+  end
+end
